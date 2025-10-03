@@ -4,7 +4,7 @@ import { buildSystemPrompt, buildUserPrompt, buildDocsSystemPrompt } from "./pro
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
-import type { DietPlanRequest } from "./types.js"
+import { DietPlanRequest } from "./types.js"
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)

@@ -1,5 +1,5 @@
-import { DietPlanRequestSchema } from "../types";
-import { generateDietPlan } from "../agent";
+import { DietPlanRequestSchema } from "../types.js";
+import { generateDietPlan } from "../index.js";
 export async function planRoutes(app) {
     app.post("/plan", async (request, reply) => {
         reply.raw.setHeader("Access-Control-Allow-Origin", "*");
@@ -28,4 +28,3 @@ export async function planRoutes(app) {
         return reply;
     });
 }
-//# sourceMappingURL=plan.js.map

@@ -1,9 +1,9 @@
 /*
      2 TIPOS DE PROMPT
 
-     1- SYSTEM PROMPT - INSTRUÇÕES PARA IA
-     2- USER PROMPT - COMANDOS PARA IA (INFORMAÇÕES)
-     3- DOCS SYSTEM PROMPT - INSTRUÇÕES PARA IA
+     1- SYSTEM PROMPT - INSTRUÇÕES PARA IA
+     2- USER PROMPT - COMANDOS PARA IA (INFORMAÇÕES)
+     3- DOCS SYSTEM PROMPT - INSTRUÇÕES PARA IA
 */
 export function buildSystemPrompt() {
     return [
@@ -35,4 +35,3 @@ export function buildUserPrompt(input) {
 export function buildDocsSystemPrompt(doc) {
     return `Documento tecnico para ajudar na geração de dietas: ${doc}`;
 }
-//# sourceMappingURL=prompt.js.map

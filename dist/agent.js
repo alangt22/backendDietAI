@@ -34,4 +34,3 @@ export async function* generateDietPlan(input) {
             yield delta;
     }
 }
-//# sourceMappingURL=agent.js.map
